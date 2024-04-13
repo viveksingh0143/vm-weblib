@@ -49,3 +49,7 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
+
+### Local Development Directories ###
+# Ignore all local development directories
+node_modules
