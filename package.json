@@ -1,23 +1,31 @@
 {
-  "name": "@viveksingh0143/vm-lib",
+  "name": "@viveksingh0143/vm-weblib",
   "version": "0.0.1",
   "description": "UI Library using tailwind css and web component",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viveksingh0143/vm-ui.git"
+    "url": "git+https://github.com/viveksingh0143/vm-weblib.git"
   },
   "keywords": [
     "Tailwind",
-    "WebComponent"
+    "Web Component",
+    "Vite"
   ],
   "author": "Vivek Singh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/viveksingh0143/vm-ui/issues"
+    "url": "https://github.com/viveksingh0143/vm-weblib/issues"
   },
-  "homepage": "https://github.com/viveksingh0143/vm-ui#readme"
+  "homepage": "https://github.com/viveksingh0143/vm-weblib#readme"
 }
