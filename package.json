@@ -1,0 +1,23 @@
+{
+  "name": "@viveksingh0143/vm-lib",
+  "version": "0.0.1",
+  "description": "UI Library using tailwind css and web component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viveksingh0143/vm-ui.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "WebComponent"
+  ],
+  "author": "Vivek Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viveksingh0143/vm-ui/issues"
+  },
+  "homepage": "https://github.com/viveksingh0143/vm-ui#readme"
+}
